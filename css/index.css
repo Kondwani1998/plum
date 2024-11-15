@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+header nav a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('../resources/loginback.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay to improve text readability */
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    padding: 10px 20px;
+    background-color: #FF8C00; /* Contrasting color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Intro Section */
+.intro {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.intro h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Partners Section */
+.partners {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.partners h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.partner-logos img {
+    height: 60px;
+    margin: 10px;
+}
+
+.view-all-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FF8C00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Resources Section */
+.resources {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.resources h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.resources p {
+    font-size: 16px;
+}
+
+.resources-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FF8C00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #FF8C00;
+    text-decoration: none;
+    margin: 0 10px;
+}
